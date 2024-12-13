@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.charge-stations-app {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: hachimarupop;
+  src: url("../public/HachiMaruPop-Regular.ttf");
+}
+.map-section {
+  display: flex;
+  position: relative;
+  flex: 1;
+}
+.leaflet-app {
+  display: flex;
+  flex: 1;
+  z-index: 1;
+}
+.leaflet-container {
+  height: 100%;
+  z-index: 1;
+}
+.map-con {
+  width: 100%;
+}
+.manuel-filter {
+  position: fixed;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 2;
+}
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.manuel-filter .header-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.right-side-head {
+  font-family: hachimarupop;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+}
+.head-hr {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 70%;
+}

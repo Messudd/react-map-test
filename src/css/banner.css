@@ -1,0 +1,31 @@
+.banner {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 8%;
+  background-color: #fff;
+}
+.logo {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  height: 100%;
+}
+.logo span {
+  font-family: hachimarupop;
+  text-align: center;
+  color: #000;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.nav-btn {
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 2px 5px;
+}
+.banner-logo{
+  margin-top: 8px;
+}
